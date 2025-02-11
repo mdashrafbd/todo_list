@@ -47,8 +47,8 @@
      const li = button.closest("li");
      const newTaskText = prompt("Edit your task:");
      if (newTaskText && newTaskText.trim()) {
-         //li.firstChild.textContent = newTaskText.trim();
-         li.textContent = newTaskText.trim();
+         li.firstChild.textContent = newTaskText.trim();
+         //li.textContent = newTaskText.trim();
          saveTasks();
      }
  }
